@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "FjallaOne";
+  src: url("/font/FjallaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(170deg, #3402bd 0%, #af8207 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem;
+}
+.container {
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 48px;
+  border-radius: 30px;
+  box-shadow: 0px 16px 48px #3605be79;
+}
+.profile {
+  margin-bottom: 40px;
+  text-align: center;
+  align-items: center;
+}
+.fotoperfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #dcc48e;
+  margin-bottom: 20px;
+  box-shadow: #dcc48e 0px 8px 16px;
+}
+
+.nome {
+  font-size: 32px;
+  font-family: "FjallaOne", sans-serif;
+  color: #090111;
+  margin-bottom: 12px;
+}
+.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5%;
+  font-weight: 500;
+  color: #05727e;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.link-block {
+  display: flex;
+  align-items: center;
+  padding: 16px 15px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 03s ease;
+  box-shadow: 0 4px 12px #575757;
+}
+.link-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px #05727e;
+}
+a {
+  text-decoration: none;
+}
+.whatsapp {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: white;
+}
+
+.ttk {
+  background: linear-gradient(135deg, #00f2ea, #ff0050);
+  color: white;
+}
+
+.insta {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  color: white;
+}
+.icon {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 15px;
+  text-align: center;
+  min-width: 40px;
+  max-width: 60px;
+}
+.link-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.fim {
+  margin-top: 10px;
+  font-style: oblique;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 40px 25px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}
